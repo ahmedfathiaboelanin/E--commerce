@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* background-color: #f6f6f6; */
+    font-family: 'Cairo', sans-serif;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f6f6f6;;
+}
+/* end sec1 */
+/* start sec2 */
+.sec2{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.div1{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    padding: 20px 200px;
+    font-weight: 800;
+}
+.div1 span{
+    color: blueviolet;
+}
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.div2 img{
+    width: 40%;
+    height: 450px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.div2-1{
+    width: 300px;
+}
+.div2-1 h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.div2-1 p{
+    margin: 20px 0px;
+}
+.div2-11{
+    width: 60px;
+    border-bottom: 3px solid blueviolet;
+}
+/* start sec3 */
+.sec3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(238, 233, 233);
+    padding: 100px 30px 100px;
+}
+.sec3 h1{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.div3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.div3-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    margin: 20px 10px;
+}
+.div3-1 img{
+    width: 150px;
+    border-radius: 50%;
+}
+.div3-1 p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.zero{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(238, 233, 233);
+    padding: 50px 0px;
+}
+.dv0{
+    display: flex;
+    width: 300px;
+    padding: 50px 0px 80px;
+}
+.dv0 i{
+    color: blueviolet;
+    font-size: 40px;
+    margin-right: 10px;
+}

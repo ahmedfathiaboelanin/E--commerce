@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #f6f6f6;
+    font-family: 'Cairo', sans-serif;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f6f6f6;;
+}
+/* end sec1 */
+/* start sec2 */
+.sec2{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.div1{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    padding: 20px 200px;
+    font-weight: 800;
+}
+.div1 span{
+    color: blueviolet;
+}
+.sec3{
+    width: 100%;
+    padding: 80px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.client{
+    width: 90%;
+    padding: 30px;
+    border: 1px solid gainsboro;
+}
+.big{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    /* background-color: aquamarine; */
+}
+.big h2{
+    margin-bottom: 40px;
+}
+.left, .right{
+    width: 600px;
+    margin: 0px auto 20px;
+
+}
+.sec{
+    width: 100%;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+.sec h3{
+    width: 100%;
+    text-align: start;
+}
+.sec select, .sec .company{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid gainsboro;
+}
+.do{
+    display:flex ;justify-content: space-between;width: 100%;
+}
+.do1{
+    height:40px; width:100%; padding-left:20px;
+    border: 1px solid gainsboro;
+}
+.do2{
+    width:100%;margin-top:20px;
+}
+.do3{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    background-color: transparent;
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+textarea{
+    border: 1px solid gainsboro;
+}
+/* ----------------------------------- */
+.st, .nd{
+    width: 100%;
+    padding: 30px 40px;
+    border: 1px solid gainsboro;
+    margin-bottom: 40px;
+}
+.st form{
+    width: 70%;
+    position: relative;
+}
+.st input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 20px;
+}
+.st button{
+    width: 70px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+#h2{
+    margin-bottom: 10px;
+}
+.nd div p{
+    width: 200px;
+    text-align: start;
+}
+.do4{
+    display:flex ; width:100%; justify-content: space-between;border-bottom: 1px solid gray;padding: 10px 0px;
+}
+.link{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: block;
+    margin-top: 20px;
+}
+.link:hover{
+    box-shadow: 0px 5px 5px black;
+}
+@media screen and (max-width:600px) {
+    .right, .left{
+        width: 275px;
+    }
+    .right form{
+        width: 100%;
+    }
+}

@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f6f6f6;;
+}
+/* start container1 */
+.container1{
+    padding: 20px 0px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+/* start left */
+.container1_left, .container1_right{
+    width: 539.5px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dv{
+    display: flex;
+    flex-direction: column;
+    width:70% ;
+}
+.container1_left .dv h1{
+    font-size: 35px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.container1_left .dv p{
+    font-size: 15px;
+    max-width: 100%;
+}
+.container1_left .dv a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(183, 0, 255);
+    max-width: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.container1_left .dv a:hover{
+    box-shadow: 0px 5px 5px black;
+    margin: 10px;
+    transition: .5s;
+}
+/* end left */
+/* start right */
+.container1_right img{
+    width: 100%;
+}
+/* end right*/
+/* end container1 */
+/* end sec1 */
+/* ---------------------------------------------------------------------------- */
+/* start sec2 */
+.sec2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.zero{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(238, 233, 233);
+}
+.dv0{
+    display: flex;
+    width: 300px;
+    padding: 50px 0px 80px;
+}
+.dv0 i{
+    color: blueviolet;
+    font-size: 40px;
+    margin-right: 10px;
+}
+/* start 1st */
+.sec2 ._1st{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.sec2 ._1st .dv1{
+    width: 280px;
+    height: 380px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+.sec2 ._1st .dv1:hover img{
+    transform: scale(1.2);
+    transition: .5s;
+}
+.dv1 img{
+    width: 100%;
+    height: 100%;
+}
+/* end 1st */
+/* start 2nd */
+.sec2 ._2nd{
+    background-color: #f6f6f6;
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec2 ._2nd h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+._2nd h1 span{
+    border-bottom: 3px solid blueviolet;
+}
+.sec2 ._2nd .dv2{
+    background-color: white;
+    width: 230px;
+    height: 450px;
+    margin: 20px 10px;
+    text-align: center;
+}
+.sec2 ._2nd .dv2:hover{
+    margin-top: 0px;
+    transition: ease-in-out;
+    transition: 1s;
+    cursor: pointer;
+}
+.dv2 img{
+    width: 100%;
+    height: 60%;
+}
+.dv2 h3{
+    text-align: center;
+    margin: 40px 0px 20px;
+}
+.dv2 p{
+    margin-bottom: 20px;
+}
+/* end 2nd */
+/* end sec2 */
+/* start sec2.1 */
+.sec2-1{
+    padding: 30px 30px 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec2-1 h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sec2-1 h1 span{
+    border-bottom: 2px solid blueviolet;
+}
+.sec2-11 img{
+    width: 60%;
+    height: 500px;
+}
+.sec2-11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-left: 50px;
+}
+.sec2-11 div{
+    text-align: center;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec2-11 div h2{
+    margin: 20px 0px;
+}
+.sec2-11 div p{
+    margin: 20px 0px 0px;
+    width: 300px;
+}
+.sec2-11 div a{
+    display: flex;
+    width:100px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(183, 0, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.sec2-11 div a:hover{
+    box-shadow: 0px 5px 5px black;
+    margin: 10px;
+    transition: .5s;
+}
+/* ---------------------------------------------------------------------- */

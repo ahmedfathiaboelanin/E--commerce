@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* background-color: #f6f6f6; */
+    font-family: 'Cairo', sans-serif;
+}
+/* -------------------------------------------------- */
+/* start sec1 */
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f6f6f6;;
+}
+/* end sec1 */
+/* start sec2 */
+.sec2{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.div1{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    padding: 20px 200px;
+    font-weight: 800;
+}
+.div1 span{
+    color: blueviolet;
+}
+/* start div2 */
+.div2{
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+.div2 img{
+    width: 400px;
+    height: 400px;
+    margin-right: 40px;
+}
+.div2-1{
+    width: 350px;
+}
+.div2-1 p{
+    margin: 10px 0px;
+}
+.div2-1 h2{
+    color: blueviolet;
+}
+.div2-1 input{
+    margin: 0px 5px;
+}
+.div2-1  input[type=number], .div2-1 button{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+.div2-1 button:hover{
+    background-color: blueviolet;
+}
+.div2-1 a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.div2-1 a:hover{
+    box-shadow: 5px 5px 5px black;
+}
+/* ------------------- */
+/* start sec3 */
+.two{
+    background-color: #f1efef;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 30px; */
+    padding: 50px 0px;
+}
+.two div{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(240, 239, 239);
+    box-shadow: 0px 0px 3px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two a{
+    margin: 20px 20px;
+    text-decoration: none;
+}
+.two div img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.two div h2{
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+.two div p{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 800;
+    color: blueviolet;
+}
+.h1{
+    background-color: #f1efef;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px 50px;
+}
